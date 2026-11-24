@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biblioteca Digital UniFECAF: acervo de livros, e-books e materiais acadêmicos para os estudantes da UniFECAF.">
+    <title>Biblioteca Digital UniFECAF</title>
+
+    <!-- Fontes: Poppins (títulos) e Inter (textos) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Folha de estilo do projeto -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Link para quem navega pelo teclado pular direto ao conteúdo -->
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- ===================== CABEÇALHO / MENU ===================== -->
+    <header class="cabecalho">
+        <div class="container cabecalho__conteudo">
+            <a class="logo" href="#inicio" aria-label="Biblioteca Digital UniFECAF - início">
+                <img src="assets/imagens/logo.svg" alt="" width="40" height="40">
+                <span>Biblioteca <strong>UniFECAF</strong></span>
+            </a>
+
+            <nav class="menu" aria-label="Menu principal">
+                <ul>
+                    <li><a href="#sobre">Biblioteca</a></li>
+                    <li><a href="#livros">Livros</a></li>
+                    <li><a href="#unidades">Unidades</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- ===================== BANNER PRINCIPAL ===================== -->
+        <section class="banner" id="inicio">
+            <div class="container banner__conteudo">
+                <p class="banner__etiqueta">Biblioteca Digital</p>
+                <h1>Seu acervo acadêmico, a qualquer hora e em qualquer tela.</h1>
+                <p class="banner__texto">
+                    Livros, e-books e materiais de apoio da UniFECAF reunidos em um só lugar
+                    para você estudar no campus, no ônibus ou em casa.
+                </p>
+                <a class="botao botao--claro" href="#livros">Explorar o acervo</a>
+            </div>
+        </section>
+
+        <!-- ===================== SOBRE A BIBLIOTECA ===================== -->
+        <section class="secao secao--escura" id="sobre">
+            <div class="container">
+                <h2 class="titulo-secao">Sobre a nossa biblioteca</h2>
+
+                <div class="sobre">
+                    <p>
+                        A Biblioteca Digital UniFECAF nasceu para facilitar o acesso dos estudantes
+                        a livros, artigos e conteúdos de apoio à aprendizagem. Pelo site, o aluno
+                        consulta o acervo, descobre os títulos em destaque e conhece os serviços
+                        disponíveis em cada unidade.
+                    </p>
+
+                    <img class="sobre__imagem" src="assets/imagens/sobre.svg"
+                         alt="Ilustração de estantes de livros ao lado de um notebook aberto"
+                         width="480" height="300">
+
+                    <p>
+                        Além do acervo físico, oferecemos e-books, salas de estudo e computadores
+                        para pesquisa. Nossa equipe orienta trabalhos acadêmicos, normas da ABNT e
+                        pesquisas em bases científicas, tanto presencialmente quanto online.
+                    </p>
+                </div>
+
+                <!-- Serviços oferecidos (4 imagens do protótipo) -->
+                <ul class="servicos">
+                    <li class="servico">
+                        <img src="assets/imagens/servico-acervo.svg" alt="" width="200" height="140">
+                        <h3>Acervo físico</h3>
+                        <p>Empréstimo de livros nas três unidades.</p>
+                    </li>
+                    <li class="servico">
+                        <img src="assets/imagens/servico-ebooks.svg" alt="" width="200" height="140">
+                        <h3>E-books</h3>
+                        <p>Leitura online pelo celular ou computador.</p>
+                    </li>
+                    <li class="servico">
+                        <img src="assets/imagens/servico-estudo.svg" alt="" width="200" height="140">
+                        <h3>Salas de estudo</h3>
+                        <p>Espaços silenciosos para estudo individual e em grupo.</p>
+                    </li>
+                    <li class="servico">
+                        <img src="assets/imagens/servico-pesquisa.svg" alt="" width="200" height="140">
+                        <h3>Apoio à pesquisa</h3>
+                        <p>Ajuda com normas ABNT e bases científicas.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===================== SEGUNDO BANNER (DESTAQUES) ===================== -->
+        <section class="destaque" aria-label="Números da biblioteca">
+            <div class="container">
+                <ul class="numeros">
+                    <li><strong>+12 mil</strong> títulos no acervo</li>
+                    <li><strong>24 h</strong> de acesso aos e-books</li>
+                    <li><strong>3</strong> unidades em Taboão da Serra</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===================== NOSSOS LIVROS ===================== -->
+        <section class="secao secao--cinza" id="livros">
+            <div class="container">
+                <h2 class="titulo-secao">Nossos livros</h2>
+
+                <div class="livros">
+                    <article class="livro">
+                        <h3>Dom Casmurro</h3>
+                        <img src="assets/imagens/livro-dom-casmurro.svg" alt="Capa ilustrada do livro Dom Casmurro" width="160" height="230">
+                        <p class="livro__categoria">Literatura brasileira</p>
+                        <p>Machado de Assis narra a história de Bentinho e Capitu, um clássico sobre memória e ciúme.</p>
+                        <a class="botao" href="#contatos">Saiba mais</a>
+                    </article>
+
+                    <article class="livro">
+                        <h3>Memórias Póstumas de Brás Cubas</h3>
+                        <img src="assets/imagens/livro-bras-cubas.svg" alt="Capa ilustrada do livro Memórias Póstumas de Brás Cubas" width="160" height="230">
+                        <p class="livro__categoria">Literatura brasileira</p>
+                        <p>Um defunto autor conta a própria vida com ironia, marco do Realismo no Brasil.</p>
+                        <a class="botao" href="#contatos">Saiba mais</a>
+                    </article>
+
+                    <article class="livro">
+                        <h3>O Cortiço</h3>
+                        <img src="assets/imagens/livro-o-cortico.svg" alt="Capa ilustrada do livro O Cortiço" width="160" height="230">
+                        <p class="livro__categoria">Naturalismo</p>
+                        <p>Aluísio Azevedo retrata a vida coletiva de um cortiço no Rio de Janeiro do século XIX.</p>
+                        <a class="botao" href="#contatos">Saiba mais</a>
+                    </article>
+
+                    <article class="livro">
+                        <h3>Iracema</h3>
+                        <img src="assets/imagens/livro-iracema.svg" alt="Capa ilustrada do livro Iracema" width="160" height="230">
+                        <p class="livro__categoria">Romantismo</p>
+                        <p>José de Alencar conta a lenda da criação do Ceará em uma prosa poética.</p>
+                        <a class="botao" href="#contatos">Saiba mais</a>
+                    </article>
+
+                    <article class="livro">
+                        <h3>A Arte da Guerra</h3>
+                        <img src="assets/imagens/livro-arte-da-guerra.svg" alt="Capa ilustrada do livro A Arte da Guerra" width="160" height="230">
+                        <p class="livro__categoria">Estratégia e gestão</p>
+                        <p>Os ensinamentos de Sun Tzu sobre estratégia, muito usados em administração e negócios.</p>
+                        <a class="botao" href="#contatos">Saiba mais</a>
+                    </article>
+
+                    <article class="livro">
+                        <h3>O Príncipe</h3>
+                        <img src="assets/imagens/livro-o-principe.svg" alt="Capa ilustrada do livro O Príncipe" width="160" height="230">
+                        <p class="livro__categoria">Ciência política</p>
+                        <p>Maquiavel analisa o poder e a liderança em uma das obras mais citadas da política.</p>
+                        <a class="botao" href="#contatos">Saiba mais</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== AS UNIDADES ===================== -->
+        <section class="secao secao--azul-escuro" id="unidades">
+            <div class="container">
+                <h2 class="titulo-secao">As unidades</h2>
+
+                <article class="unidade">
+                    <img src="assets/imagens/unidade-sede.svg" alt="Ilustração do prédio do Campus Sede" width="420" height="280">
+                    <div class="unidade__texto">
+                        <h3>Unidade 1 · Campus Sede</h3>
+                        <p>
+                            Maior acervo físico da biblioteca, com salas de estudo em grupo,
+                            computadores para pesquisa e atendimento da equipe de bibliotecários.
+                        </p>
+                        <p class="unidade__endereco">Av. Vida Nova, 166 · Jardim Maria Rosa · Taboão da Serra/SP</p>
+                    </div>
+                </article>
+
+                <article class="unidade">
+                    <img src="assets/imagens/unidade-g5.svg" alt="Ilustração do prédio da unidade G5" width="420" height="280">
+                    <div class="unidade__texto">
+                        <h3>Unidade 2 · G5</h3>
+                        <p>
+                            Espaço moderno e silencioso, ideal para leitura individual, com
+                            cabines de estudo e tomadas em todas as mesas.
+                        </p>
+                        <p class="unidade__endereco">Av. Vida Nova, 28 · Piso G5 · Taboão da Serra/SP</p>
+                    </div>
+                </article>
+
+                <article class="unidade">
+                    <img src="assets/imagens/unidade-centro.svg" alt="Ilustração do prédio da unidade Centro" width="420" height="280">
+                    <div class="unidade__texto">
+                        <h3>Unidade 3 · Centro</h3>
+                        <p>
+                            Unidade com área de convivência e espaço de leitura, perto do
+                            transporte público do centro de Taboão da Serra.
+                        </p>
+                        <p class="unidade__endereco">Rod. Régis Bittencourt, 157 · Parque Santos Dumont · Taboão da Serra/SP</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===================== CONTATOS ===================== -->
+        <section class="secao secao--clara" id="contatos">
+            <div class="container contatos">
+                <div class="contatos__texto">
+                    <h2 class="titulo-secao">Contatos</h2>
+                    <p>
+                        Ficou com dúvida sobre empréstimos, renovação ou acesso aos e-books?
+                        Fale com a equipe da biblioteca pelos canais abaixo ou visite uma das
+                        nossas unidades.
+                    </p>
+                    <ul class="contatos__lista">
+                        <li><strong>Telefone e WhatsApp:</strong> <a href="tel:+551142104950">(11) 4210-4950</a></li>
+                        <li><strong>E-mail:</strong> <a href="mailto:biblioteca@fecaf.com.br">biblioteca@fecaf.com.br</a></li>
+                        <li><strong>Horário:</strong> segunda a sexta, das 8h às 22h · sábado, das 8h às 14h</li>
+                    </ul>
+                </div>
+
+                <img class="contatos__imagem" src="assets/imagens/contato.svg"
+                     alt="Ilustração de uma bibliotecária atendendo pelo computador" width="380" height="280">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== RODAPÉ ===================== -->
+    <footer class="rodape">
+        <div class="container">
+            <p>© 2026 Biblioteca Digital UniFECAF · Projeto acadêmico da disciplina Design Web</p>
+            <p>Desenvolvido por Gabriel Cardoso</p>
+        </div>
+    </footer>
+
+</body>
+</html>
